@@ -1,0 +1,49 @@
+/* Profile container */
+.container {
+    width: 700px;
+    height: 752px;
+    border: solid 3px black;
+    border-radius: 25px;
+}
+
+/* avatar box */
+.avatarBox {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.avatarIcon {
+    background-color: #2a2a2a;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.username {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.otherInfo {
+    font-size: 40px;
+    color: #909090;
+    font-weight: 500;
+}
+
+/* aocial info list */
+.socialBox {
+    margin-top: 43px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialLi {
+    width: 220px;
+    height: 172px;
+}
+
+.liTitle {
+}
+
+.liValue {
+}
