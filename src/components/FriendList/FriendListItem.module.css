@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    height: 212px;
+    width: 128px;
+    border: 2px solid black;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgStyle {
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+}
+.nameTitle {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.online {
+    color: green;
+}
+
+.ofline {
+    color: red;
+}

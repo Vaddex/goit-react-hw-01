@@ -4,6 +4,8 @@
     height: 752px;
     border: solid 3px black;
     border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 60px;
 }
 
 /* avatar box */
@@ -38,12 +40,23 @@
 }
 
 .socialLi {
-    width: 220px;
-    height: 172px;
+    width: 33.3333333%;
+    display: inline block;
+    height: 210px;
+    list-style: none;
+    background-color: #d3d3d3;
+    border: 3px solid #808080;
 }
 
 .liTitle {
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .liValue {
+    font-size: 40px;
+    font-weight: 550;
 }

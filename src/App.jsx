@@ -1,7 +1,9 @@
 import './App.css';
-import userData from './userData.json';
 import 'modern-normalize';
+import userData from './userData.json';
+import friends from './friends.json';
 import Profile from './components/Profile/Profile';
+import FriendList from './components/FriendList/FriendList';
 
 export default function App() {
     return (
@@ -13,6 +15,9 @@ export default function App() {
                 image={userData.avatar}
                 stats={userData.stats}
             />
+            <>
+                <FriendList friends={friends} />
+            </>
         </>
     );
 }
