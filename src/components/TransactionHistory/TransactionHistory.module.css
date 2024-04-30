@@ -1,0 +1,24 @@
+.container {
+    height: 368px;
+    width: 743px;
+    border-spacing: 0;
+}
+
+.tableHead {
+    width: 33.3333%;
+    height: 39px;
+    background-color: #2a2a2a;
+    font-weight: 600;
+    color: white;
+    border-spacing: 0;
+    border: 0.5px solid black;
+}
+.tRow:nth-child(2n) {
+    background-color: #d3d3d3;
+}
+
+.td {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
